@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Transactional
 public class OrderService {
+
     private final OrderRepository orderRepository;
 
     public void placeOrder(OrderRequest orderRequest) {
