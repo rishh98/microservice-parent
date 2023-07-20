@@ -1,11 +1,10 @@
-package ccom.microservice.rishi.order_service.model;
+package com.microservice.rishi.order_service.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
