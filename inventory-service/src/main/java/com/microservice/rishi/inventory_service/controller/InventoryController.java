@@ -20,8 +20,9 @@ public class InventoryController {
 	
 	private final InventoryService inventoryService;
 
-	//http://localhost:8082/api/inventory/iphone13-red, iphone13-red
-	//http://localhost:8082/api/inventory/?sku-code=iphone13-red&sku-code=iphone13-red not desirable input
+	//http://localhost:8082/api/inventory/iphone13-red, iphone13-red  --> not desirable input
+
+	//http://localhost:8082/api/inventory/?skuCcode=iphone13-red&skuCode=iphone13-red
 	//changing String to List in @PathVariable to catch n number of request
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
